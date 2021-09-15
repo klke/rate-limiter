@@ -12,7 +12,7 @@
 namespace Symfony\Component\RateLimiter\Policy;
 
 use Symfony\Component\Lock\LockInterface;
-use Symfony\Component\Lock\NoLock;
+use Symfony\Component\RateLimiter\Lock\NoLock;
 use Symfony\Component\RateLimiter\Exception\ReserveNotSupportedException;
 use Symfony\Component\RateLimiter\LimiterInterface;
 use Symfony\Component\RateLimiter\RateLimit;
